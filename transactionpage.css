@@ -1,0 +1,18 @@
+<style>
+h1{
+    color: rgb(78, 238, 177);
+    font-family: 'Segoe UI', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', 'Open Sans', 'Helvetica Neue', 'sans-serif' 
+}
+
+nav .links{
+    text-decoration: none;
+    color: #947ee2; }
+nav .links:hover
+{
+   color: #857aec;
+}
+#history-section{
+    margin: 0 7%;
+    padding: 40px 0;
+}
+</style>
