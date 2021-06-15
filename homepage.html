@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ayushi George">
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <!--Exteral CSS link-->
+    <Link rel="stylesheet" href="style.css">
+    <!--Font awosome link-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="icon" href="https://res.cloudinary.com/dhqxln7zi/image/upload/v1617813116/favikon_pidf7q.png" type="image/x-icon"/>
+    <style>
+         nav .links{
+             text-decoration: none;
+             color: #3a769e;
+         }
+         nav .links:hover{
+            color: #459ee7;
+         }
+    </style>
+    <title>Basic Banking System</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav>
+        <div class="Logo">
+           <img src="https://static.vecteezy.com/system/resources/previews/000/288/658/original/bank-vector-icon.jpg" id="bank-logo">
+        </div>
+        <div class="navbar-link">
+            <ul class="nav-links">
+                <li><a href="index.html"class="links">Home</a></li>
+                <li><a href="customer.php" class="links">Customers</a></li>
+                <li><a href ="transactions.php" class="links">Transactions</a></li>
+                <li><a href="transfer.php" class="links">Transfer</a></li>
+                <li><a href ="#about-section" class="links">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="hero-section">
+        <div class="hero-container side-margin">
+            <div class="hero-content">
+                <h1>DONATE NOW <br> <span>TO HELP SOMEONE</span></h1>
+                <p> Welcome to The sparks Bank, where you can donate and earn many prayers from someone out there.</p>
+               <a href="#explore-section"> <button>Explore</button></a>
+            </div>
+            <div class="hero-img">
+                <img src="https://image.freepik.com/free-vector/transfer-money_9206-876.jpg">
+            </div>
+        </div>
+    </section>
+    <section id="explore-section" class="padding-updown light-bg"> 
+
+        <h2 class="section-heading">We Provide</h2>
+
+        <div class="explore-row side-margin">
+            
+                <div class="box money-transfer">
+                    <img src="https://res.cloudinary.com/dhqxln7zi/image/upload/v1617859729/3_okf1xf.svg" class="explore-img"><br>
+                    <a href="transfer.php" class="box-heading"> <span>Money Transfer</span></a>
+                </div>
+                <div class="box money-transactions">
+                    <img src="https://res.cloudinary.com/dhqxln7zi/image/upload/v1617858583/moneytrann_dwrdhn.svg" class="explore-img"><br>
+                    <a href="transactions.php" class="box-heading"><span>Money Transactions</span></a>
+                </div>
+                <div class="box customers">
+                    <img src="https://res.cloudinary.com/dhqxln7zi/image/upload/v1617858577/custo_a3l4be.svg" class="explore-img"><br>
+                    <a href="customer.php" class="box-heading"><span>Our Customers</span></a>
+                </div>
+
+        </div>
+
+    </section>
+
+    <section id="about-section" class="padding-updown">
+
+        <h2 class="section-heading">About Us</h2>
+
+        <div class="about-row side-margin">
+
+                <div class="about-box" style="border-right: 0.5px solid rgba(0, 0, 0, 0.253);">
+                    <span class="percentage">10/10</span><br>
+                    <span class="small-text">EXPERIENCE</span><br>
+                    <span class="big-text">HIGH EXPOSURE</span>
+                </div>
+                <div class="about-box" style="border-right: 0.5px solid rgba(0, 0, 0, 0.253);">
+                    <span class="percentage">8/10</span><br>
+                    <span class="small-text">TESTIMONIALS</span><br>
+                    <span class="big-text">PROJECTS</span>
+                </div>
+                <div class="about-box">
+                    <span class="percentage">10/10</span><br>
+                    <span class="small-text">INTERNSHIP OFFERS</span><br>
+                    <span class="big-text">EVERY MONTH</span>
+                </div>
+
+        </div>
+
+    <p class="section-para">Welcome to The Sparks Foundation's initative The Spark Bank! </p>
+     
+</section>
+    <footer>
+        <span>Code By Ayushi George </span> <a href="https://github.com/ayushigeorge/webdev_intern_BasicBankingSystem" target="_blank"><i class="fab fa-github"></i></a>
+    </footer>
+    <!--Javascript Link-->
+    <script src="App.js"></script>
+</body>
+</html>
